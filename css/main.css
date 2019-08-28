@@ -6,7 +6,7 @@ html,body{
     background-color: #fff;
     position: relative;
     z-index: 1;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif !important;
 
 }
 
@@ -44,10 +44,45 @@ main{
 
 }
 
+.header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 240px;
+    text-align: center;
+}
+
 .title{
     font-size: 56px;
     color: #fff;
-    font-weight: 300;
+    font-weight: lighter;
     display: block;
-    text-align: center;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.subheadline{
+    font-size: 32px;
+    font-weight: 200;
+    color: #f2f2f2;
+    padding: 18px 320px;
+    line-height: 44px;
+    cursor: pointer;
+}
+
+.action{
+    padding: 18px 300px;
+
+}
+
+.action a{
+    color : #f4f3f3;
+    font-size: 28px;
+    font-weight: 300;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.action a:hover{
+    border-bottom: 1px solid #e2e2e2;
 }
