@@ -1,2 +1,3 @@
 # BUILDING-WITH-BACKGROUNDS-AND-GRADIENTS
-clone website for application
+### Nyan Lin Tun
+clone apple website
