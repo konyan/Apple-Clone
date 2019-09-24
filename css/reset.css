@@ -87,7 +87,6 @@ video {
   vertical-align: baseline;
 }
 
-
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -366,8 +365,6 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 3+.
  */
-
-
 
 /**
  * Remove most spacing between table cells.
