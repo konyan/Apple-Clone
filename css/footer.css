@@ -31,7 +31,6 @@ footer .left {
 }
 
 footer p,
-footer ul,
 footer ul li {
   display: inline;
   margin: 0;
@@ -42,9 +41,11 @@ footer .right {
   width: 51%;
   padding-top: 1.5em;
   text-align: right;
+
   /* display: inline;
   margin: 0; */
 }
+
 .piped {
   zoom: 1;
 }

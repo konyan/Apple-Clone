@@ -2,7 +2,6 @@
 @import url("./footer.css");
 @import url("./nav.css");
 
-
 html,
 body {
   width: 100%;
@@ -28,6 +27,7 @@ main {
 #billboard {
   position: relative;
   display: block;
+
   /* position: absolute;
     top: 0;
     left: 0;
@@ -42,7 +42,8 @@ main {
   bottom: 0;
   width: 100%;
   position: absolute;
-  background: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg")
+  background:
+    url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg")
     50% 100% no-repeat;
   height: 700px;
   background-size: 1440px 1315px;
@@ -74,21 +75,6 @@ main {
   cursor: pointer;
 }
 
-.action {
-  padding: 18px 300px;
-}
-
-.action a {
-  color: #f4f3f3;
-  font-size: 28px;
-  font-weight: 300;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.action a:hover {
-  border-bottom: 1px solid #e2e2e2;
-}
 aside {
   position: absolute;
   z-index: 1;
@@ -134,6 +120,22 @@ aside ul li a {
 
 a:link {
   text-decoration: none;
+}
+
+.action {
+  padding: 18px 300px;
+}
+
+.action a {
+  color: #f4f3f3;
+  font-size: 28px;
+  font-weight: 300;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.action a:hover {
+  border-bottom: 1px solid #e2e2e2;
 }
 
 aside ul li a img {
